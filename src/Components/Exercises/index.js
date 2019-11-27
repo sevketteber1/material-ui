@@ -1,6 +1,7 @@
 import React from 'react'
 import { Grid, Paper } from 'material-ui'
 import LeftPane from './LeftPane'
+import RightPane from './RightPane'
 
 const styles = {
   Paper: {
@@ -17,7 +18,7 @@ export default props => (
     </Grid>
 
     <Grid item sm>
-      <Paper>Right Pane</Paper>
+      <RightPane styles={styles} />
     </Grid>
   </Grid>
 )
